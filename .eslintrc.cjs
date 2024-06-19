@@ -1,4 +1,4 @@
-require("eslint-plugin-only-warn");
+require( "eslint-plugin-only-warn" );
 
 module.exports = {
   env: {
