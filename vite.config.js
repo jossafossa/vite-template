@@ -5,4 +5,10 @@ export default defineConfig( {
   plugins: [
     eslint( ),
   ],
+  // alias @
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 } );
